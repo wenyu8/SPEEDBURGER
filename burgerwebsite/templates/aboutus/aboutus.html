@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+{% load static %}
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+    <title>About Us</title>
+</head>
+<body>
+    <div class="about-section">
+        <h1>About Our Shop</h1>
+        <br> <br>
+        <div>
+        <p>It was started by a group of burger enthusiasts who understood how to make tasty burgers at a low cost.
+        Dedicated to servicing Omaha's burger lovers and delivering to your doorstep. Our toasted buns will require two hands to grasp.
+        Our juicy, fresh burgers are served medium-rare with a side of fries and a ton of flavor.</p>
+        </div>
+    </div>
+    <footer class="page-footer font-small blue pt-4">
+        <div class="container-fluid text-center text-md-left">
+            <div class="row">
+                <div class="col-md-6 mt-md-0 mt-3">
+                    <img src="{% static 'images/about-burger.jpeg' %}" class="w-50 p-3" alt="About Us image">
+                    <h5 class="text-uppercase">6001 Dodge St, Omaha, NE 68182</h5>
+                </div>
+                <div class="col-md-3 mb-md-0 mb-3">
+                    <h5 class="text-uppercase">Main Menu</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/aboutus">About Us</a></li>
+                        <li><a href="/">Shop</a></li>
+                        <li><a href="/">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 mb-md-0 mb-3">
+                    <h5 class="text-uppercase">Find Us On</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="https://www.facebook.com/">Facebook</a></li>
+                        <li><a href="https://twitter.com/">Twitter</a></li>
+                        <li><a href="https://www.instagram.com/">Instagram</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

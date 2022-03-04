@@ -11,3 +11,8 @@ def index(request):
     template = loader.get_template('products.html')
     # rendering the template in HttpResponse
     return HttpResponse(template.render())
+
+
+def aboutus(request):
+    return render(request, 'aboutus/aboutus.html', {'aboutus': aboutus})
+
