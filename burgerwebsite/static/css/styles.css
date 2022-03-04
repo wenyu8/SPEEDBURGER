@@ -1,8 +1,15 @@
 /* About Us CSS*/
 
 .about-section {
-    padding: 100px;
+    padding: 250px;
     text-align: center;
     background-color: #474e5d;
+    background-image: url('../images/AboutCover.jpeg');
+    background-size: cover;
     color: white;
  }
+
+.page-footer {
+    padding: 100px;
+    background-color: floralwhite;
+}
