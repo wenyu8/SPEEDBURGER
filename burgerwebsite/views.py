@@ -3,7 +3,16 @@ from django.shortcuts import render
 from django.http import HttpResponse
 # importing loading from django template
 from django.template import loader
+from django.db.models import Sum
+from _decimal import Decimal
 
+
+from django.contrib.auth.decorators import login_required
+from django.shortcuts import render, get_object_or_404
+from django.shortcuts import redirect
+from .models import *
+from .forms import *
+from .forms import SignUpForm
 
 # our view which is a function named index
 def index(request):
