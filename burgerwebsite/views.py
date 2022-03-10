@@ -39,4 +39,9 @@ def signup(request):
     else:
         form = SignUpForm()
     return render(request, 'registration/signup.html', {'form': form})
-now = timezone.now()
+
+
+# now = timezone.now()
+
+def contactus(request):
+    return render(request, 'aboutus/contactus.html', {'contactus': contactus})
