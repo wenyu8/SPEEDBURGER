@@ -17,10 +17,15 @@ from .forms import SignUpForm
 # our view which is a function named index
 def index(request):
     # getting our template
-    template = loader.get_template('aboutus/products.html')
+    template = loader.get_template('aboutus/homepage.html')
     # rendering the template in HttpResponse
     return HttpResponse(template.render())
 
+def products(request):
+    return render(request, 'aboutus/products.html', {'products': products})
+
+def shop(request):
+    return render(request, 'aboutus/shop.html', {'shop': shop})
 
 def aboutus(request):
     return render(request, 'aboutus/aboutus.html', {'aboutus': aboutus})
