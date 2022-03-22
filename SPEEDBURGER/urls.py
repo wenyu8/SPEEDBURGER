@@ -3,10 +3,11 @@ from django.urls import path, include
 from django.conf import settings
 from django.conf.urls.static import static
 
+
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('accounts/', include('django.contrib.auth.urls')),
-    path('', include('burgerwebsite.urls')),]
+    path('', include('burgerwebsite.urls'))]
     #path('burgerwebsite/', include('django.contrib.auth.urls')),]
     # Add Django site authentication urls (for login, logout, password management)
     #path('accounts/', include('django.contrib.auth.urls')),
