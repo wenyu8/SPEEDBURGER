@@ -1,28 +1,66 @@
+.homepic {
+    background: url(../images/fire.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: black;
+}
+
+
 .horizontal_menu li {
-            display: inline;
-            list-style-type: none;
-            
-            margin: 5px;
-            padding: 2px;
-  margin-left:240px;
-        }
-.title{
+    display: inline;
+    list-style-type: none;
+    margin: 5px;
+    padding: 2px;
+    margin-left: 10px;
+    color: black;
+}
+
+
+.container1 {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.back_body{
+  background: url(../images/contact-bg.jpeg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: black;
+}
+
+.title1 li {
+
+    display: inline;
+    list-style-type: none;
+    margin: 5px;
+    padding: 2px;
+    margin-left: 20px;
+
+}
+
+.title {
     text-align: center;
     font-family: fantasy;
-
+    color: black;
 
 
 }
-.body{
-  background-color:#FFFFF0
+
+.body {
+    background-color: #FFFFF0
 
 
 }
 
 div.gallery {
 
-  display: block;
-  margin-left: 270px;
+    display: block;
+    margin-left: 270px;
 
 }
 
@@ -43,8 +81,7 @@ div.gallery img {
 div.desc {
     padding: 15px;
     text-align: center;
-    font-family: Lucida Console
-;
+    font-family: Lucida Console;
 
 }
 
@@ -57,7 +94,7 @@ div.desc {
     font-family: Monospace;
     padding: 20px;
     border: dotted #800000;
-   background-color:#FFA07A
+    background-color: #FFA07A
 }
 
 .meats {
@@ -65,7 +102,7 @@ div.desc {
     font-family: Monospace;
     padding: 20px;
     border: dotted #800000;
-     background-color:#FFDAB9;
+    background-color: #FFDAB9;
 
 }
 
